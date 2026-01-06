@@ -14,10 +14,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+      - name: Build Docker Image
+        run: docker build -t optibet-automation .
 
-      - name: Build and Run Tests in Docker
-        run: |
-          docker build -t optibet-automation .
-          docker run --rm optibet-automation
+      - name: Run Tests
+        # --shm-size="2gb" prevents the "DevToolsActivePort" crash in Linux
+        run: docker run --rm --shm-size="2gb" optibet-automation
