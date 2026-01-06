@@ -1,0 +1,36 @@
+
+Warning: uc_driver not found. Getting it now:
+
+*** chromedriver to download = 143.0.7499.169 (Latest Stable) 
+
+Downloading chromedriver-linux64.zip from:
+https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/linux64/chromedriver-linux64.zip ...
+Download Complete!
+
+Extracting ['chromedriver'] from chromedriver-linux64.zip ...
+Unzip Complete!
+
+The file [uc_driver] was saved to:
+/usr/local/lib/python3.12/site-packages/seleniumbase/drivers/
+uc_driver
+
+Making [uc_driver 143.0.7499.169] executable ...
+[uc_driver 143.0.7499.169] is now ready for use!
+
+
+*** chromedriver to download = 143.0.7499.169 (Latest Stable) 
+
+Downloading chromedriver-linux64.zip from:
+https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/linux64/chromedriver-linux64.zip ...
+Download Complete!
+
+Extracting ['chromedriver'] from chromedriver-linux64.zip ...
+Unzip Complete!
+
+The file [chromedriver] was saved to:
+/usr/local/lib/python3.12/site-packages/seleniumbase/drivers/
+chromedriver
+
+Making [chromedriver 143.0.7499.169] executable ...
+[chromedriver 143.0.7499.169] is now ready for use!
+

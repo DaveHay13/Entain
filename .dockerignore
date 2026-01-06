@@ -1,0 +1,12 @@
+﻿venv/
+.venv/
+__pycache__/
+.pytest_cache/
+allure-report/
+allure-results/
+*.log
+latest_logs/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
